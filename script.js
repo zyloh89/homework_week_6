@@ -23,6 +23,17 @@ $(document).ready(function(){
 
             })
 
+            // script crashes
+            //$.ajax({
+            //url: queryURLforecast,
+            //method: "GET",
+            //dataType:"jsonp",
+            //success: function(forecastdata){
+                //console.log(forecastdata);
+                 
+            //}
+            //})
+
         }
         else{
             $("error").html('Field cannot be empty');        
